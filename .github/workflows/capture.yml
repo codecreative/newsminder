@@ -1,4 +1,4 @@
-name: immunityunity
+name: newsminder
 
 on:
   workflow_dispatch:
