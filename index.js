@@ -57,7 +57,7 @@ const delay = (time) => {
   const date = format( processDate, 'yyyy-MM-dd');
   const hour = format( processDate, 'H');
   const session = getSession( hour );
-  const timestamp = format( processDate, 'yyyymmddhhmm');
+  const timestamp = format( processDate, 'yyyyMMddHHmm');
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();  
