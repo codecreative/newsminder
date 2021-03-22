@@ -1,0 +1,8 @@
+node_modules
+assets
+.DS_Store
+/.out
+/.env
+/node_modules__
+/npm-debug.log
+/dist
