@@ -6,7 +6,7 @@ on:
     - cron: '6 9,14,18,23 * * *'
 
 jobs:
-  run-immunityunity:
+  run-newsminder:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
