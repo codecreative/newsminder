@@ -1,0 +1,17 @@
+{
+  "name": "newsminder",
+  "version": "1.0.0",
+  "description": "Github Action and Puppeteer demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "date-fns": "^2.19.0",
+    "json2csv": "^5.0.6",
+    "puppeteer": "^8.0.0"
+  }
+}
